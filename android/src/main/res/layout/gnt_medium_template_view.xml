@@ -149,6 +149,8 @@
                   android:layout_height="wrap_content"
                   android:textSize="@dimen/gnt_text_size_small"
                   android:textColor="@color/gnt_gray"
+                  android:progressTint="@color/gnt_ad_green"
+                  android:progressBackgroundTint="@color/gnt_ad_green"
                   android:numStars="5"
                   android:stepSize="0.1"
                   android:lines="1"
@@ -202,6 +204,7 @@
           app:layout_constraintStart_toStartOf="parent"
           app:layout_constraintTop_toBottomOf="@id/middle"
           android:paddingStart="@dimen/gnt_default_margin"
+          android:maxLines="2"
           android:layout_marginBottom="@dimen/gnt_small_margin"
           />
       <androidx.appcompat.widget.AppCompatButton
