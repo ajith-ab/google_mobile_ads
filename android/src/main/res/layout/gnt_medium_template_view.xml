@@ -149,7 +149,7 @@
                   android:layout_height="wrap_content"
                   android:textSize="@dimen/gnt_text_size_small"
                   android:textColor="@color/gnt_gray"
-                  android:progressTint="@color/gnt_ad_green"
+                  android:progressTint="#ffff8800"
                   android:progressBackgroundTint="@color/gnt_ad_green"
                   android:numStars="5"
                   android:stepSize="0.1"
