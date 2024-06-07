@@ -32,7 +32,7 @@
           >
         <ImageView
             android:id="@+id/icon"
-            android:layout_width="120dp"
+            android:layout_width="0dp"
             android:layout_weight="0"
             android:layout_height="match_parent"
             android:layout_marginTop="@dimen/gnt_no_margin"
@@ -50,7 +50,7 @@
             android:layout_height="@dimen/gnt_no_size"
             android:layout_marginTop="@dimen/gnt_no_margin"
             android:layout_marginBottom="@dimen/gnt_no_margin"
-            android:layout_marginStart="12dp"
+            android:layout_marginStart="@dimen/gnt_default_margin"
             android:layout_marginEnd="@dimen/gnt_default_margin"
             android:orientation="vertical"
             android:id="@+id/content"
